@@ -19,7 +19,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px; 
 }
 
 /* Container Pembungkus SVG & Konten */
@@ -41,8 +40,9 @@ body {
 .image-center {
   position: absolute;
   z-index: 2;
-  top: 50%;
+  top: 70%;
   left: 50%;
+  width: 100%;
   transform: translate(-50%, -50%); /* Cara centering paling presisi */
   pointer-events: none; 
 }
@@ -166,7 +166,7 @@ nav.top-navigation {
   top: 0;
   left: 0;
   width: 100%;
-  padding-top: 1.5rem;
+  padding-top: 6rem;
   z-index: 100;
   display: flex;
   justify-content: center;
