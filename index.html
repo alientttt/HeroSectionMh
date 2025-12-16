@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style.css" />
-    <title>Document</title>
+    <title>Eco Enzyme Layout</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <section class="hero-img">
@@ -16,11 +16,13 @@
           <li><a href="">Contact</a></li>
         </ul>
       </nav>
-      <div class="wrapper">
+
+      <div class="wrapper-clip">
         <svg
-          class="wrapper-image"
+          class="wrapper-svg"
           viewBox="0 0 1361 801"
           fill="none"
+          preserveAspectRatio="none"
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
@@ -28,29 +30,51 @@
             fill="#E0D8D5"
           />
         </svg>
+
         <img class="image-center" src="./foto.png" alt="" />
-        <div class="wrapper-card">
-          <div class="card card-1">
-            <span>Go to</span>
-            <p>Data Product</p>
-          </div>
-          <div class="card card-2">
-            <span>Go to</span>
-            <p>Community</p>
-          </div>
-          <div class="card card-3">
-            <span>Go to</span>
-            <p>FAQ</p>
-          </div>
-        </div>
-        <div class="wrapper-logo">
-          <div class="youtube">Y</div>
-          <div class="instagram">I</div>
-          <div class="web">W</div>
-        </div>
-        <div class="wrapper-logo-text">
-          <span class="logo-text">ECO ENZYME</span>
-        </div>
+
+        <main>
+          <aside class="wrapper-logo area-logo">
+            <div class="wrapper-logo-text">
+              <span class="logo-text">ECO ENZYME</span>
+            </div>
+            <nav class="social-media-wrapper">
+              <ul>
+                <li class="social-media-circle youtube"><a href="">Y</a></li>
+                <li class="social-media-circle instagram"><a href="">I</a></li>
+                <li class="social-media-circle web"><a href="">W</a></li>
+              </ul>
+            </nav>
+          </aside>
+
+          <aside class="wrapper-hero-text area-hero">
+            <h2>Earth-powered products for eco-friendly living</h2>
+            <a href="" class="btn-view-all">
+              <span>View All</span>
+            </a>
+          </aside>
+
+          <article class="wrapper-cards area-cards">
+            <div class="card card-1">
+              <span>Go to</span>
+              <p>Product</p>
+            </div>
+            <div class="card card-2">
+              <span>Go to</span>
+              <p>Comm</p>
+            </div>
+            <div class="card card-3">
+              <span>Go to</span>
+              <p>FAQ</p>
+            </div>
+          </article>
+
+          <article class="wrapper-card-optional area-optional">
+            <div class="card-vertikal">
+              <span>Tes Optional</span>
+            </div>
+          </article>
+        </main>
       </div>
     </section>
   </body>
